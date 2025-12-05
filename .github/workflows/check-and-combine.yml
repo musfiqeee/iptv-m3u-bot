@@ -2,7 +2,7 @@ name: Check and Combine M3U Streams
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: '*/15 * * * *'
   workflow_dispatch:
   push:
 
