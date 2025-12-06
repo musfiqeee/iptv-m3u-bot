@@ -25,7 +25,8 @@ def load_custom_entries(custom_file="custom_entries.txt"):
             if not line or line.startswith("#"):
                 i += 1
                 continue
-            # If line starts with #EXTINF, it's the start of an entry
+            
+            # Check if this is an EXTINF line
             if line.startswith("#EXTINF"):
                 extinf = line
                 # Next non-empty line should be the URL
@@ -37,6 +38,12 @@ def load_custom_entries(custom_file="custom_entries.txt"):
                     if url and not url.startswith("#"):
                         channel_name = extract_channel_name(extinf) or url
                         entries.append((extinf, url, channel_name))
+            else:
+                # It's a URL without EXTINF - auto-generate EXTINF
+                url = line
+                channel_name = url.split('/')[-1].split('?')[0]  # Extract filename as name
+                extinf = f'#EXTINF:-1 group-title="All Channels",{channel_name}'
+                entries.append((extinf, url, channel_name))
             i += 1
         return entries
     except FileNotFoundError:
