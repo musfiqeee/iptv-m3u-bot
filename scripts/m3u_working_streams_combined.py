@@ -145,7 +145,7 @@ if __name__ == "__main__":
     print(f"\nTotal unique working streams: {len(unique_entries)} (removed {len(combined_entries) - len(unique_entries)} duplicates)")
 
     # Combine and write to output M3U with single group
-    output_file = "output/combined_working_streams.m3u"
+    output_file = "output/all.m3u"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         

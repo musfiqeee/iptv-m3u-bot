@@ -27,6 +27,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add output/combined_working_streams.m3u
+          git add output/all.m3u
           git commit -m "Update combined working streams [skip ci]" || exit 0
           git push
