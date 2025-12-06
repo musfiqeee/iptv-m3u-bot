@@ -2,7 +2,7 @@ name: Check and Combine M3U Streams
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: "0 4 * * *"
   workflow_dispatch:
   push:
 
@@ -21,12 +21,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run script
-        run: python m3u_working_streams_combined.py
+        run: python scripts/m3u_working_streams_combined.py
 
       - name: Commit and push if changed
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add combined_working_streams.m3u
+          git add output/combined_working_streams.m3u
           git commit -m "Update combined working streams [skip ci]" || exit 0
           git push

@@ -1,7 +1,7 @@
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-def load_m3u_urls(feed_file="feed.txt"):
+def load_m3u_urls(feed_file="data/feed.txt"):
     """Load M3U URLs from feed.txt file."""
     try:
         with open(feed_file, "r", encoding="utf-8") as f:
@@ -9,9 +9,9 @@ def load_m3u_urls(feed_file="feed.txt"):
         return urls
     except Exception as ex:
         print(f"Error reading {feed_file}: {ex}")
-        return []
+        return [][]
 
-def load_custom_entries(custom_file="custom_entries.txt"):
+def load_custom_entries(custom_file="data/custom_entries.txt"):
     """Load custom M3U entries from custom_entries.txt file."""
     try:
         with open(custom_file, "r", encoding="utf-8") as f:
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     print(f"\nTotal unique working streams: {len(unique_entries)} (removed {len(combined_entries) - len(unique_entries)} duplicates)")
 
     # Combine and write to output M3U with single group
-    output_file = "combined_working_streams.m3u"
+    output_file = "output/combined_working_streams.m3u"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
