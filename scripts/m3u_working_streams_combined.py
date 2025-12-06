@@ -9,7 +9,7 @@ def load_m3u_urls(feed_file="data/feed.txt"):
         return urls
     except Exception as ex:
         print(f"Error reading {feed_file}: {ex}")
-        return [][]
+        return []
 
 def load_custom_entries(custom_file="data/custom_entries.txt"):
     """Load custom M3U entries from custom_entries.txt file."""
