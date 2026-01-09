@@ -95,6 +95,8 @@ https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8
 https://a1xs.vip/40000048
 #EXTINF:-1 tvg-id="Animal.Planet.HD.us2" tvg-name="Animal Planet FHD" tvg-logo="https://i.ibb.co/k6hCxknW/Animal-Planet.png" group-title="US Channels",Animal Planet FHD
 https://a1xs.vip/300035
+#EXTINF:-1 tvg-name="Animal Planet HD" group-title="Information",Animal Planet HD
+http://103.60.204.26:3255/AnimalPlanetHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Arabica TV" group-title="Bangladeshi üáßüá©",Arabica TV
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 #EXTINF:-1 tvg-name="Arena_Sport" group-title="Football",Arena_Sport
@@ -121,6 +123,8 @@ https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
 https://cdn-2.pishow.tv/live/227/master.m3u8
 #EXTINF:-1 tvg-name="B4U Movies" group-title="Hindi Movies",B4U Movies
 https://cdnb4u.wiseplayout.com/B4U_Movies/HD1080/HD1080.m3u8
+#EXTINF:-1 tvg-name="B4U MOVIES" group-title="Unknown",B4U MOVIES
+http://163.61.227.29:8000/play/a047/index.m3u8
 #EXTINF:-1 tvg-name="B4U Movies" group-title="Hindi",B4U Movies
 https://cdnb4u.wiseplayout.com/B4U_Movies/SD216/SD216.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/5088d0894a79b329031d5f4669bbb0fe" group-title="Hindi",B4U Movies India
@@ -163,6 +167,8 @@ https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8
 http://103.230.105.252:1935/live/btv/manifest.m3u8
 #EXTINF:-1 tvg-id="Cartoon.Network.HD.us2" tvg-name="Cartoon Network FHD" tvg-logo="https://i.ibb.co/MysF1z2Z/cartoon-network.png" group-title="US Channels",Cartoon Network FHD
 https://a1xs.vip/300032
+#EXTINF:-1 tvg-name="Cartoon Network HD" group-title="KIDS",Cartoon Network HD
+http://103.60.204.26:3255/CartoonNetwork/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CNBC FHD" tvg-logo="https://i.ibb.co/BV8M6ddb/Cbs.webp" group-title="US Channels",CBS
 https://a1xs.vip/300010
 #EXTINF:-1 tvg-id="plex.tv.CBS.Sports.Golazo.Network.plex" tvg-name="CBS Sports Golazo Network" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/golazo.png" group-title="US Sports",CBS Sports Golazo Network
@@ -173,20 +179,12 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://a1xs.vip/1000031
 #EXTINF:-1 tvg-id="Channel.5.HD.uk" tvg-name="Channel 5 FHD" tvg-logo="https://i.ibb.co/16SnsKq/skychb1800.png" group-title="UK Channels",Channel 5 FHD
 https://a1xs.vip/1000030
-#EXTINF:-1 tvg-name="Channel 9" group-title="BANGLA",Channel 9
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Channel S HD" group-title="Bangla",Channel S HD
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Channel S UK" group-title="Bangla",Channel S UK
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/chsukoff.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Channel S UK HD" group-title="Bangla",Channel S UK HD
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/3458d0d9097a8283a94a13374bcbf5c7" group-title="Religious",Channel Win
 https://cdn-4.pishow.tv/live/229/master.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/14a329b450239b9a4beaa4953c33367b" group-title="Channels",CMAC TV
 https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8
-#EXTINF:-1 tvg-id="CNBC.HD.us2" tvg-name="CNBC FHD" tvg-logo="https://i.ibb.co/XxMdyzfD/cnbc.png" group-title="US Channels",CNBC
-https://a1xs.vip/300009
 #EXTINF:-1 tvg-name="CNBC Indonesia (EN) üõú" group-title="NEWS INTERNASIONAL",CNBC Indonesia (EN) üõú
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 #EXTINF:-1 tvg-name="CNN (US)" group-title="NEWS INTERNASIONAL",CNN (US)
@@ -241,8 +239,6 @@ https://a1xs.vip/300034
 https://a1xs.vip/300037
 #EXTINF:-1 tvg-name="DISNEY JR" group-title="Infotainment Channels",DISNEY JR
 http://fl1.moveonjoy.com/DISNEY_JR/index.m3u8
-#EXTINF:-1 tvg-name="Disney Junior" group-title="Kids",Disney Junior
-https://live20.bozztv.com/giatvplayout7/giatv-209650/index.m3u8
 #EXTINF:-1 tvg-id="Disney.Junior.HD.us2" tvg-name="Disney Jr." tvg-logo="https://i.ibb.co/dJBVkHgg/2024-Disney-Jr.png" group-title="US Channels",Disney Junior
 https://a1xs.vip/300036
 #EXTINF:-1 tvg-name="Doraemon" group-title="Bangla | 24/7",Doraemon
@@ -273,12 +269,10 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="E4.HD.uk" tvg-name="E4 FHD" tvg-logo="https://i.ibb.co/PbGvD1S/e4.png" group-title="UK Channels",E4 FHD
 https://a1xs.vip/1000032
-#EXTINF:-1 tvg-name="Ekhon TV" group-title="BANGLA",Ekhon TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Ekhone TV" group-title="Bangla News",Ekhone TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image534fa27d7683f33d.png" group-title="Akash Go",Ekushey TV
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 tvg-name="Ekushey TV (480p)" group-title="Unknown",Ekushey TV (480p)
+https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-name="Eleven Sports 1 4K" tvg-logo="https://i.imgur.com/k6MErsv.png" group-title="UHD | 4K",Eleven Sports 1 4K
 https://a1xs.vip/14001
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/2b00567c538d392c8050124f0064c4a1" group-title="Indian Bangla",Enter 10 Bangla
@@ -323,8 +317,6 @@ https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 https://a1xs.vip/300011
 #EXTINF:-1 tvg-id="FoxLeague.au" tvg-name="Fox Sports 502 FHD" tvg-logo="https://i.ibb.co/XZpHFsBh/Fox502HD.png" group-title="AU Sports",Fox Sports 502 FHD
 https://a1xs.vip/700002
-#EXTINF:-1 tvg-id="FoxSports503.au" tvg-name="Fox Sports 503 FHD" tvg-logo="https://i.ibb.co/Z60SQPG9/Fox-503.png" group-title="AU Sports",Fox Sports 503 FHD
-https://a1xs.vip/700003
 #EXTINF:-1 tvg-id="FoxFooty.au" tvg-name="Fox Sports 504 FHD" tvg-logo="https://i.ibb.co/RpxSzY1R/Fox-Footy504.png" group-title="AU Sports",Fox Sports 504 FHD
 https://a1xs.vip/700004
 #EXTINF:-1 tvg-id="FoxSports505.au" tvg-name="Fox Sports 505 FHD" tvg-logo="https://i.ibb.co/RpxSzY1R/Fox-Footy504.png" group-title="AU Sports",Fox Sports 505 FHD
@@ -339,8 +331,6 @@ https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8
 https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="FXX.HD.us2" tvg-name="FXX" tvg-logo="https://i.ibb.co/ZRYY8B4p/fxx.png" group-title="US Channels",FXX
 https://a1xs.vip/300006
-#EXTINF:-1 tvg-name="Gazi TV" group-title="Bangla",Gazi TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News" tvg-logo="https://i.ibb.co/9Hk8HRRH/GB-News.png" group-title="UK Channels",GB News FHD
 https://a1xs.vip/1000017
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/e0d54d73e6b9cf211cd760650467e596" group-title="Urdhu",Geo ENT
@@ -409,8 +399,6 @@ https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
 https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/201491b7327fffb27d78f800dd9f42d2" group-title="News",Iran Press
 https://live.presstv.ir/hls/presstv_5_482/index.m3u8
-#EXTINF:-1 tvg-id="Premier.Sports.1.HD.ie" tvg-name="Premier Sports 1 FHD" tvg-logo="https://i.ibb.co/Nd49Cwvc/Premier-Sports-1.png" group-title="EU Sports",IRE: Premier Sports 1 FHD
-https://a1xs.vip/8000021
 #EXTINF:-1 tvg-id="Premier.Sports.2.HD.ie" tvg-name="Premier Sports 2 FHD" tvg-logo="https://i.ibb.co/5hfMsrXv/Premier-Sports-2.png" group-title="EU Sports",IRE: Premier Sports 2 FHD
 https://a1xs.vip/8000022
 #EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-name="iTV1 FHD" tvg-logo="https://i.ibb.co/g6TqxVm/ITV1.png" group-title="UK Channels",iTV1 FHD
@@ -421,8 +409,6 @@ https://a1xs.vip/1000012
 https://a1xs.vip/1000013
 #EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-name="iTV4 FHD" tvg-logo="https://i.ibb.co/rQhNxbN/ITV4.png" group-title="UK Channels",iTV4 FHD
 https://a1xs.vip/1000014
-#EXTINF:-1 tvg-name="Jago News 24" group-title="Jagobd",Jago News 24
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jagonews24.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Jankhar tv" group-title="BANGLA",Jankhar tv
 https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
 #EXTINF:-1 tvg-name="Joo Music" group-title="Hindi Movies",Joo Music
@@ -539,10 +525,6 @@ https://a1xs.vip/40000033
 https://a1xs.vip/40000034
 #EXTINF:-1 tvg-id="Nick.Jr.HD.us2" tvg-name="Nick Jr. FHD" tvg-logo="https://i.ibb.co/rfspzqCr/Nick-Jr.png" group-title="US Channels",Nick Jr. FHD
 https://a1xs.vip/300033
-#EXTINF:-1 tvg-id="Nick.Jr..HD.uk" tvg-name="Nick Jr. UK FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/Nick_Jr.png" group-title="UK Channels",Nick Jr. UK FHD
-https://a1xs.vip/1000052
-#EXTINF:-1 tvg-id="NickelodeonHD.uk" tvg-name="Nickelodeon UK FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/Nickelodeon.png" group-title="UK Channels",Nickelodeon UK FHD
-https://a1xs.vip/1000051
 #EXTINF:-1 tvg-id="Nicktoons.uk" tvg-name="Nicktoon UK" tvg-logo="https://i.ibb.co/q3qWFwNG/Nicktoons.png" group-title="UK Channels",Nicktoon UK
 https://a1xs.vip/100054
 #EXTINF:-1 tvg-id="Ziggo.Sport.2.nl" tvg-name="NL: Ziggo Sport 2 FHD" tvg-logo="https://i.ibb.co/hxTy5fJw/Ziggo-Sport2.png" group-title="EU Sports",NL: Ziggo Sport 2 FHD
@@ -601,14 +583,10 @@ https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8
 https://cdn-4.pishow.tv/live/1231/1231_1.m3u8
 #EXTINF:-1 tvg-name="R Plus Gould" group-title="Indian-Bangla",R Plus Gould
 https://cdn-4.pishow.tv/live/1231/1231_2.m3u8
-#EXTINF:-1 tvg-name="R Plus News" group-title="Indian Bangla News",R Plus News
-https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/22af43810a37af9a151f1e0a23adde63" group-title="Channels",Rakuten Movies
 https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
 #EXTINF:-1 tvg-id="08264a87-e3f4-4310-bf6c-f9d450595884" tvg-name="Relaks Radio" tvg-logo="https://s3.aynaott.com/storage/2127a03bd8ebe021b6bff9bdcdfb1973" group-title="Radio",Relaks Radio
 http://stream.spicefmbd.com/stream.m3u8
-#EXTINF:-1 tvg-name="Rongeen TV" group-title="Kids",Rongeen TV
-https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="RT News (EN) üõú" group-title="NEWS INTERNASIONAL",RT News (EN) üõú
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-name="RT NEWS USA" group-title="NEWS INTERNASIONAL",RT NEWS USA
@@ -639,12 +617,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywoo
 https://cdn-3.pishow.tv/live/230/master.m3u8
 #EXTINF:-1 tvg-id="Sky.Atlantic.HD.uk" tvg-name="Sky Atlantic FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/sky-atlantic.png" group-title="UK Channels",Sky Atlantic FHD
 https://a1xs.vip/210001
-#EXTINF:-1 tvg-id="Sky.Action.uk" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/sky-cinema-action.png" group-title="UK Channels",Sky Cinema Action FHD
-https://a1xs.vip/210006
 #EXTINF:-1 tvg-id="Sky.Cinema.Hits.HD.uk" tvg-name="Sky Cinema Hits FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/sky-cinema-hits.png" group-title="UK Channels",Sky Cinema Hits FHD
 https://a1xs.vip/210002
-#EXTINF:-1 tvg-id="Sky.Premiere.uk" tvg-name="Sky Cinema Premiere FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/sky-cinema-premiere.png" group-title="UK Channels",Sky Cinema Premiere FHD
-https://a1xs.vip/210003
 #EXTINF:-1 tvg-id="Sky.Cinema.Select.uk" tvg-name="Sky Cinema Select FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/sky-cinema-select-.png" group-title="UK Channels",Sky Cinema Select FHD
 https://a1xs.vip/210004
 #EXTINF:-1 tvg-name="Sky News" group-title="UK Channels",Sky News
@@ -693,6 +667,8 @@ https://a1xs.vip/2000012
 https://ultrashort.info/191sNI
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/8ab8956c9d9128f39ef21487a38f47a3" group-title="Hindi",Sony TEN2
 https://tvsen3.aynascope.net/HsatAP9H/index.m3u8
+#EXTINF:-1 tvg-name="Sony TV HD" group-title="Hindi",Sony TV HD
+http://103.60.204.26:3255/SonyEntertainmentTelevisionHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="South Movies" group-title="Hindi | 24/7",South Movies
 https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Spectrum.SportsNet.us" tvg-name="Spectrum Sportsnet" tvg-logo="https://i.postimg.cc/ZRChbGNc/spectrum-sportsnet.png" group-title="US Sports",Spectrum Sportsnet FHD
@@ -711,8 +687,6 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ee
 https://a1xs.vip/6000014
 #EXTINF:-1 tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SportsNet NY FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/Sportsnet_NY.png" group-title="US Sports",SportsNet NY FHD
 https://a1xs.vip/40000045
-#EXTINF:-1 tvg-id="Sportsnet.One.ca2" tvg-name="Sportsnet One FHD" tvg-logo="https://i.ibb.co/v6fdk9PY/Sports-Net-One.png" group-title="CA Sports",Sportsnet One FHD
-https://a1xs.vip/6000012
 #EXTINF:-1 tvg-id="Sportsnet.Ontario.HD.ca2" tvg-name="Sportsnet Ontario FHD" tvg-logo="https://i.ibb.co/xqdMW6XQ/Sports-Net-On.png" group-title="CA Sports",Sportsnet Ontario FHD
 https://a1xs.vip/6000011
 #EXTINF:-1 tvg-id="Sportsnet.West.HD.ca2" tvg-name="Sportsnet West" tvg-logo="https://i.ibb.co/gZZP5wVK/Sportsnet-W.png" group-title="CA Sports",Sportsnet West
@@ -743,8 +717,6 @@ http://163.61.227.29:8000/play/a04v/index.m3u8
 https://7pal.short.gy/tntspts2
 #EXTINF:-1 tvg-name="TNS Sports-3" group-title="SPORTS",TNS Sports-3
 https://7pal.short.gy/tntspts3
-#EXTINF:-1 tvg-id="TNT.Sports.1.HD.uk" tvg-name="TNT Sports 1 FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/TNTS1.png" group-title="UK Sports",TNT Sports 1 FHD
-https://a1xs.vip/2000021
 #EXTINF:-1 tvg-name="TNT SPORTS 2" group-title="Unknown",TNT SPORTS 2
 http://178.33.239.54:8080/510/index.m3u8
 #EXTINF:-1 tvg-id="TNT.Sports.2.HD.uk" tvg-name="TNT Sports 2 FHD" tvg-logo="https://raw.githubusercontent.com/a1xmedia/m3u/refs/heads/main/img/TNTS2.png" group-title="UK Sports",TNT Sports 2 FHD
@@ -763,8 +735,6 @@ https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
 https://a1xs.vip/travelxpuhd
 #EXTINF:-1 tvg-name="TRT 2 HD" group-title="Unknown",TRT 2 HD
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="TRT SPOR" group-title="Football",TRT SPOR
-https://trn03.tulix.tv/gt-trt-spor1/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT TURK" group-title="Unknown",TRT TURK
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/f63d4aad95532175f7f44be439f74111" group-title="News",TRT World
